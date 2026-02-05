@@ -3,7 +3,7 @@ const tax = 5000;
 const eta = 7;
 // eta = 5;  // error
 
-const student = { name: 'abul', marks: 75 }
+const students = { name: 'abul', marks: 75 }
 const friend = ['babul', 'kabul', 'dabul']
 
 
@@ -14,7 +14,7 @@ function add(num1 = 0, num2 = 0) {
 
 
 //Template string 
-const dynamicTax = `My tax ${tax} and marks ${student.marks * 1.2} has friend ${friend[1]}`
+const dynamicTax = `My tax ${tax} and marks ${students.marks * 1.2} has friend ${friend[1]}`
 
 const innerHTML = `
 <div>
@@ -35,7 +35,7 @@ console.log(newFriends)
 // destructuring 
 // array = array
 // object= object
-const { marks: totalMarks, age = 0 } = student
+const { marks: totalMarks, age = 0 } = students
 // console.log(marks);
 console.log(totalMarks, age);
 

@@ -15,4 +15,4 @@ const student = {
     'home-address': 'kochu khate'
 }
 
-console.log(student.family.child?.first);   // optional chain ==> ?
+console.log(students.family.child?.first);   // optional chain ==> ?

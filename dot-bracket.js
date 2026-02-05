@@ -6,22 +6,22 @@ const student = {
 }
 
 // dot notation
-const studentOne = student.marks;
+const studentOne = students.marks;
 // console.log(studentOne);
 
 
 // bracket notation
-const studentTwo = student['1']
-const studentTwo2 = student['name']
-console.log(student['home-address']);
+const studentTwo = students['1']
+const studentTwo2 = students['name']
+console.log(students['home-address']);
 
-for (const key in student) {
-    const value = student[key]  // use bracket notation 
+for (const key in students) {
+    const value = students[key]  // use bracket notation 
     console.log('value: ', value);
 }
 
 const propName = 'marks';
-console.log(student[propName]);  // use bracket notation 
+console.log(students[propName]);  // use bracket notation 
 
 
 
